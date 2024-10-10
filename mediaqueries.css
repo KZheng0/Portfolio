@@ -1,4 +1,5 @@
 /* FOR A RESPONSIVE WEB DESIGN: */
+
 @media screen and (max-width: 1400px) {
     #profile {
         height: 83vh;
@@ -7,8 +8,10 @@
     .about-containers {
         flex-wrap: wrap;
     }
+    #contact, #projects {
+        height: fit-content;
+    }
 }
-
 
 /* 
 This is a media query, which means the style inside this block 
@@ -92,7 +95,7 @@ will only apply when the screen width is 1200 pixels or less.
     .title {
         font-size: 2rem;
     }
-    .tex-container {
+    .text-container {
         text-align: justify;
     }
 }
