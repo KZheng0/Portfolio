@@ -9,7 +9,7 @@
 
 /* applies to the body of the DOM */
 body {
-    font-family: 'Popins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* applies to the html of the DOM */
@@ -54,7 +54,7 @@ a {
 }
 
 a:hover {
-    color: gray;
+    color: grey;
     text-decoration: underline;
     text-underline-offset: 1rem;
     text-decoration-color: rgb(181, 181, 181);
@@ -286,7 +286,7 @@ section {
 }
 
 .arrow {
-    position: relative;
+    position: absolute;
     right: -5rem;
     bottom: 2.5rem;
 }
